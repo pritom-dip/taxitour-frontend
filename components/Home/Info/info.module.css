@@ -1,0 +1,15 @@
+.taxi_booking_title_wrapper li{
+    width: 50%;
+   
+}
+.taxi_booking_title_wrapper li a{
+    color: #000;
+    width: 100%;
+    padding: 15px;
+    display: block;
+}
+.bookingWrapperSection{
+    border: 1px solid #f9be37;
+    margin-right:20px;
+    background-color: #ededed;
+}
