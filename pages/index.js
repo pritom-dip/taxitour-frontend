@@ -34,9 +34,9 @@ export default function Home({ tours }) {
 }
 
 Home.getInitialProps = async () => {
-  const url = process.env.SITE_URL;
+  const url = 'http://127.0.0.1:8000';
   try {
-    const res = await fetch(`${process.env.SITE_URL}/api/tours`);
+    const res = await fetch(`${url}/api/tours`);
     const tours = await res.json();
     return {
       tours

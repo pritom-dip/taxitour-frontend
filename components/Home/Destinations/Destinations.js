@@ -6,7 +6,7 @@ const Destinations = () => {
         <section className="ftco-section">
             <div className="container">
                 <div className="row justify-content-center mb-5 pb-3">
-                    <div className="col-md-7 heading-section text-center ftco-animate">
+                    <div className="col-md-7 heading-section text-center">
                         <h2 className="mb-4">Most Popular Destination</h2>
                     </div>
                 </div>

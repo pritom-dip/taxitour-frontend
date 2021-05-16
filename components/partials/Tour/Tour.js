@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tour = () => {
     return (
-        <div className="col-sm-12 col-md-3 col-lg-3 ftco-animate">
+        <div className="col-sm-12 col-md-3 col-lg-3">
             <div className="destination">
                 <a href="#" className="img img-2 d-flex justify-content-center align-items-center"
                     style={{ backgroundImage: "url(../../../images/destination-1.jpg)" }}>

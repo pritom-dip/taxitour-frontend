@@ -5,7 +5,7 @@ const Services = () => {
         <section className="ftco-section services-section bg-light">
             <div className="container">
                 <div className="row d-flex">
-                    <div className="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div className="col-md-3 d-flex align-self-stretch">
                         <div className="media block-6 services d-block">
                             <div className="icon"><span className="flaticon-yatch"></span></div>
                             <div className="media-body">
@@ -14,7 +14,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div className="col-md-3 d-flex align-self-stretch">
                         <div className="media block-6 services d-block">
                             <div className="icon"><span className="flaticon-around"></span></div>
                             <div className="media-body">
@@ -23,7 +23,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div className="col-md-3 d-flex align-self-stretch">
                         <div className="media block-6 services d-block">
                             <div className="icon"><span className="flaticon-compass"></span></div>
                             <div className="media-body">
@@ -32,7 +32,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div className="col-md-3 d-flex align-self-stretch">
                         <div className="media block-6 services d-block">
                             <div className="icon"><span className="flaticon-map-of-roads"></span></div>
                             <div className="media-body">

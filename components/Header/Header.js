@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header = () => {
     return (
@@ -11,12 +12,24 @@ const Header = () => {
                             className="oi oi-menu"></span> Menu</button>
                     <div className="collapse navbar-collapse" id="ftco-nav">
                         <ul className="navbar-nav ml-auto">
-                            <li className="nav-item active"><a href="index.html" className="nav-link">Home</a></li>
+                            <li className="nav-item active">
+                                <Link href="/">
+                                    <a className="nav-link">Home</a>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link href="/tours">
+                                    <a className="nav-link">Tours</a>
+                                </Link>
+                            </li>
                             <li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
                             <li className="nav-item"><a href="places.html" className="nav-link">Places</a></li>
-                            <li className="nav-item"><a href="tour.html" className="nav-link">Tours</a></li>
                             <li className="nav-item"><a href="blog.html" className="nav-link">Blog</a></li>
-                            <li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
+                            <li className="nav-item">
+                                <Link href="/contact">
+                                    <a className="nav-link">Contact</a>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -27,7 +40,7 @@ const Header = () => {
                 <div className="container">
                     <div className="row no-gutters slider-text js-fullheight align-items-center justify-content-start"
                         data-scrollax-parent="true">
-                        <div className="col-md-9 ftco-animate mb-5 pb-5 text-center text-md-left"
+                        <div className="col-md-9 mb-5 pb-5 text-center text-md-left"
                             data-scrollax=" properties: { translateY: '70%' }">
                             <h1 className="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
                                 Discover <br />A new Place

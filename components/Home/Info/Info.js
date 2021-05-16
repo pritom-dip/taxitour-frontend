@@ -9,7 +9,7 @@ const Info = () => {
                 <div className="row d-flex align-items-center">
 
                     <div className="col-md-7">
-                        <div className={`${styles.bookingWrapperSection} fullContentWrapper ftco-animate`}>
+                        <div className={`${styles.bookingWrapperSection} fullContentWrapper`}>
                             <ul className={`nav nav-pills ${styles.taxi_booking_title_wrapper}`}>
                                 <li className="">
                                     <a href="#1a" data-toggle="tab" className="active show">Airport Pick Up</a>
@@ -23,7 +23,7 @@ const Info = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <div className="heading-section ftco-animate">
+                        <div className="heading-section">
                             <h2 className="mb-4">The Best Travel Agency</h2>
                         </div>
                         <div>
